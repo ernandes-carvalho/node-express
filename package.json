@@ -1,0 +1,29 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "Exemple node express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernandes-carvalho/node-express.git"
+  },
+  "keywords": [
+    "Ernandes",
+    "node",
+    "express",
+    "project"
+  ],
+  "author": "Ernandes carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernandes-carvalho/node-express/issues"
+  },
+  "homepage": "https://github.com/ernandes-carvalho/node-express#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1"
+  }
+}
