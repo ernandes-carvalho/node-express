@@ -5,6 +5,10 @@ const app = express();
 const routes = require('./routes');
 const bodyParser = require('body-parser');
 
+app.set('view engine', 'pug');
+
+
+
 app.use(function(req, res, next) {
     console.log('I am a custom middleware');
     next();

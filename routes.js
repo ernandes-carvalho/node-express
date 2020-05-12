@@ -4,9 +4,12 @@ const router = express.Router();
 
 router.get('/', function(req, res, next) {
     //next(new Error('Custom error'))
-    res.json({
-        message: 'Hello world'
+    res.render('index', {
+        message: 'Hello world from express by son'
     });
+    /*res.json({
+        message: 'Hello world'
+    });*/
 });
 
 
